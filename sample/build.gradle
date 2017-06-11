@@ -1,8 +1,5 @@
 apply plugin: 'com.android.application'
 
-version = VERSION_NAME
-group = GROUP
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion

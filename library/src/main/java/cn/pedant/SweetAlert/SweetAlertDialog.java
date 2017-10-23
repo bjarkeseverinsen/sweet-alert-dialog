@@ -289,7 +289,7 @@ public class SweetAlertDialog extends Dialog implements View.OnClickListener {
     public SweetAlertDialog setInput2Text(String text) {
         mInput2Text = text;
         if (input2 != null && mInput1Text != null) {
-            input2.setText(mInput1Text);
+            input2.setText(mInput2Text);
         }
         return this;
     }
